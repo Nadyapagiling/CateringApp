@@ -96,7 +96,7 @@ $info = $pesan[$_GET['pesan'] ?? ''] ?? '';
 </head>
 <body>
 <h1>Catering App</h1>
-<p class="sub">Kelola menu catering (Versi 2.0 - CRUD)</p>
+<p class="sub">Kelola menu catering (Versi 2.1 - CRUD via Jenkins)</p>
 
 <?php if ($info): ?><div class="info"><?= e($info) ?></div><?php endif; ?>
 
